@@ -121,22 +121,8 @@ docker run -p 8501:8501 fashion-mnist-app
 
 ---
 
-## 5. Project Structure
 
-```
-.
-├── app/
-│   ├── main.py        # Streamlit app
-│   ├── trained_model/ # Saved Keras .h5 model
-├── model_notebook/    # Jupyter Notebook for training
-├── Dockerfile
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 6. How to Use
+## 5. How to Use
 
 1. **Train the model** (optional): See `model_notebook/`.
 2. **Run the Streamlit app**:
@@ -145,7 +131,7 @@ docker run -p 8501:8501 fashion-mnist-app
 
 ---
 
-## 7. References
+## 6. References
 
 - [Fashion-MNIST Dataset](https://github.com/zalandoresearch/fashion-mnist)
 - [TensorFlow/Keras Documentation](https://www.tensorflow.org/)
